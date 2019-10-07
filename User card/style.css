@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+* {
+    font-family: 'Gudea', sans-serif;
+}
+
+.wrapper-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    margin: 10rem auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.wrapper-usercard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: rgb(207, 156, 255);
+    border-radius: 50%;
+    margin: 0 3rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    height: 15rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article:nth-child(2) {
+    height: 15rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+img {
+    margin: -6.5rem 0 0 0;
+    border-radius: 50%;
+    border-width: 1rem;
+    border-style: solid;
+    color: rgb(226, 255, 252);
+    align-self: center;
+}
+
+.upperArticle {
+    background: rgb(35, 124, 115);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.bottomArticle {
+    background: rgb(226, 255, 252);
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+h1 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 0 0 1rem;
+    align-self: flex-start;
+}
+
+h2 {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-weight: lighter;
+}
